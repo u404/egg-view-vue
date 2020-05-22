@@ -1,0 +1,55 @@
+{
+  "name": "@sc/egg-view-vue",
+  "version": "1.0.9",
+  "description": "",
+  "eggPlugin": {
+    "name": "viewVue"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "@sc/babel-register-vue": "latest",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-destructuring": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "escape-html": "^1.0.3",
+    "vue": "^2.5.17",
+    "vue-server-renderer": "^2.5.17"
+  },
+  "devDependencies": {
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pkgfiles": "egg-bin pkgfiles"
+  },
+  "files": [
+    "app.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "maintainers": [
+    {
+      "name": "Myth",
+      "mail": "chenmengxi@smartcinema.com.cn"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@t-gitlab.smartcinema.com.cn:node/egg-view-vue.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.smartcinema.com.cn"
+  },
+  "license": "MIT"
+}
